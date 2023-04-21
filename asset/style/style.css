@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+    background-color: bisque;
+}
+header{
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(14, 15, 14);
+    color: white;
+    display: flex;
+    padding: 2rem;
+    min-height: 13vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    
+}
+#imglogo{
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    right: 0;
+    
+    
+}
+
+nav{
+   flex-wrap: wrap;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    width: 1000px;
+}
+nav a{
+    border-radius: 2rem;
+    text-align: center;
+    width: 150px;
+    color: aliceblue;
+    border: 2px solid white;
+}
+nav a:hover{
+    background-color: rgb(253, 252, 252);
+    color: rgb(0, 0, 0);
+}
+.div-main{
+    align-items: center;
+    min-height: 74vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#img-principa{
+    border-radius: 2rem;
+    width: 40rem;
+    margin: 2rem;
+}
+.img-txt{
+    padding-bottom: 2rem;
+    align-items: center;
+  display: flex;
+}
+.img-txt img{
+    border-radius: 2rem;
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+
+
+}
+
+.img-txt img, p{
+    align-items: center;
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+
+}
+
+/* about us */
+
+.contenedor-about{
+  
+    align-items: center;
+    min-height: 74vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.mini-txt img{
+   
+    width: 25rem;
+    height: 20rem;
+    border-radius: 3rem;
+}
+.two-people img{
+ 
+    width: 25rem;
+    height: 20rem;
+    border-radius: 3rem;
+}
+.pancakes img{
+  
+    width: 25rem;
+    height: 20rem;
+    border-radius: 3rem;
+}
+
+.mini-txt{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 3rem;
+}
+
+.two-people{
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 3rem;
+}
+.pancakes{
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 3rem;
+}
+.parrafo1{
+    
+    margin-left: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 25px;
+}
+#h2-txt{
+  text-align: center none !important;
+  
+}
+/* contact */
+.div-contenedor{
+    min-height: 74vh;
+    padding: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-contenedor img{
+    border-radius: 3rem;
+    width: 50rem;
+    height: 30rem;
+}
+.text1{
+    font-size: 20px;
+    text-align: center;
+    width: 50rem;
+    height: 200px;
+}
+.contact{
+    
+    justify-content: space-between;
+    display: flex;
+    width: 50rem;
+    font-size: 20px;
+}
+.contact a{
+    color: black;
+}
+
+.contact a:hover{
+   
+    border-radius: 1rem;
+    color: rgb(240, 227, 227);
+    background-color: rgb(10, 10, 10);
+}
+/* benefits */
+.main{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   display: flex;
+    min-height: 74vh;
+}
+
+.main img{
+    object-fit: cover;
+    border-radius: 3rem;
+    margin: 3rem;
+    height: 20rem;
+    width: 20rem;
+}
+.main div{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+ol{
+   
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    padding: 3rem;
+    height: 20rem;
+    width: 25rem;
+}
+/* more info */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse:collapse ;
+    text-align: center;
+    width: 750px;
+    height: 200px;
+    font-size: 20px;
+}
+th:hover{
+    background-color: coral;
+}
+td:hover{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+caption{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    padding: 2rem;
+}
+/* raffle */
+form img{
+  
+  border-radius: 3rem;
+    width: 40rem;
+    height: 25rem;
+}
+form{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 74vh;
+    display: flex;
+}
+footer{
+    min-height: 13vh;
+}
+.info{
+  
+   height: 220px;
+    width: 255px;
+   
+  
+}
+fieldset{
+    height: 300px;
+    width: 100px;
+    flex-direction: column;
+    display: flex;
+}
+.main2{
+   
+    flex-direction: column;
+    display: flex;
+    height: 60rem;
+    width: 40rem;
+}
+.check{
+    margin: 1rem;
+    text-align: center;
+    width: 255px;
+    height: 50px;
+}
+.div-from{
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 50rem;
+    height: 70rem;
+}
+.pay{
+   
+    display: flex;
+   
+    /* align-items: center; */
+}
+
+@media  ( max-width:768px ){
+ 
+   
+   #img-principa{
+   
+    width: 15rem;
+    height: 10rem;
+   }
+   .img-txt{
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 50rem;
+   }
+   .img-txt img{
+    
+    width: 15rem;
+    height: 10rem;
+   }
+   /* about us */
+   nav a:hover{
+    color: black;
+    background-color: coral;
+   }
+   .mini-txt img {
+    
+    width: 15rem;
+    height: 10rem;
+   }
+   .mini-txt{
+    width: 319px;
+    justify-content: center;
+    align-items: center;
+   }
+   .two-people img{
+    width: 15rem;
+    height: 10rem;
+
+   }
+ 
+   .two-people{
+    width: 319px;
+    justify-content: center;
+    align-items: center;
+   }
+   .pancakes img{
+    width: 15rem;
+    height: 10rem;
+   }
+   .pancakes{
+    width: 319px;
+    
+    justify-content: center;
+    align-items: center;
+
+    
+    }
+    .contenedor-about p{
+        font-size: 15px;
+    }
+  /* contact */
+
+  
+  .div-contenedor img{
+    width: 15rem;
+    height: 10rem;
+  }
+  .text1{
+    width: 319px;
+  }
+  .contact{
+    justify-content: center;
+    text-align: center;
+    width: 319px;
+    flex-wrap: wrap;
+  }
+
+  /* benefits */
+
+.div-lis1 img{
+    padding-top: 1rem;
+    margin: 0;
+width: 15rem;
+height: 10rem;
+}
+.div-lis1 ol{
+    width: 319px;
+    height: 320px;
+}
+
+.div-lis2 img{
+    margin: 0;
+    width: 15rem;
+height: 10rem;
+}
+.div-lis2 ol{
+    width: 319px;
+    height: 320px;
+}
+
+/* more info */
+
+/* raffle */
+.div-from img{
+    
+width: 15rem;
+height: 10rem;
+}
+.div-from {
+    height: 500px;
+}
+   
+}
